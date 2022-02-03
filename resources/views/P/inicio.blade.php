@@ -21,7 +21,7 @@
 						<div class="inner">
 
 							<!-- Logo -->
-								<a href="index.html" class="logo">
+								<a href="{{('inicio')}}" class="logo">
 									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">CHICAS SUPERPODEROSAS</span>
 								</a>
 
@@ -39,7 +39,7 @@
 				<nav id="menu">
 					<h2>MENU</h2>
 					<ul>
-						<li><a href="{{route('inicio')}}">INICIO</a></li>
+						<li><a href="{{('inicio')}}">INICIO</a></li>
 						<li><a href="{{route('generic')}}">TEMA 1</a></li>
 						<li><a href="{{route('generic1')}}">TEMA 2</a></li>
 						<li><a href="{{route('generic2')}}">TEMA 3</a></li>
