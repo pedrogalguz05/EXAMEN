@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function() {
-    return view('generic');
+    return view('inicio');
 });
 
 Route::get('/tema1', function(){
