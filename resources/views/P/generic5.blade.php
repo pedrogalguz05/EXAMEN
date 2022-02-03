@@ -78,11 +78,11 @@
 							<section>
 								<h2>CONTACTO:</h2>
 								<ul class="icons">
-									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+									<li><a href="https://www.facebook.com/profile.php?id=100009863443321" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/danielita__cv/?hl=es-la" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/pedrogalguz05/EXAMEN.git" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://wa.me/qr/73NQNI527OOZJ1" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="naydelin_1320114060@uptecamac.edu.mx" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
 								</ul>
 							</section>
 							<ul class="copyright">

@@ -9,8 +9,8 @@
 		<title>UNIDAD 1</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="main.css" />
-		<noscript><link rel="stylesheet" href="noscript.css" /></noscript>
+		<link rel="stylesheet" href="/css/main.css" />
+		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -21,7 +21,7 @@
 						<div class="inner">
 
 							<!-- Logo -->
-								<a href="{{('inicio')}}" class="logo">
+								<a href="{{route('inicio')}}" class="logo">
 									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">CHICAS SUPERPODEROSAS</span>
 								</a>
 
@@ -39,7 +39,7 @@
 				<nav id="menu">
 					<h2>MENU</h2>
 					<ul>
-						<li><a href="{{('inicio')}}">INICIO</a></li>
+						<li><a href="{{route('inicio')}}">INICIO</a></li>
 						<li><a href="{{route('generic')}}">TEMA 1</a></li>
 						<li><a href="{{route('generic1')}}">TEMA 2</a></li>
 						<li><a href="{{route('generic2')}}">TEMA 3</a></li>
@@ -170,11 +170,11 @@
 							<section>
 								<h2>CONTACTO:</h2>
 								<ul class="icons">
-									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+									<li><a href="https://www.facebook.com/profile.php?id=100009863443321" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/danielita__cv/?hl=es-la" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/pedrogalguz05/EXAMEN.git" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://wa.me/qr/73NQNI527OOZJ1" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="naydelin_1320114060@uptecamac.edu.mx" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
 								</ul>
 							</section>
 							<ul class="copyright">
