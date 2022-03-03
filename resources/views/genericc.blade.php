@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>TEMA 5</title>
+		<title>@yield('titulo')</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/css/main.css" />
@@ -41,7 +41,7 @@
 					<ul>
 						<li><a href="{{route('inicio')}}">INICIO</a></li>
 						<li><a href="{{route('prueba')}}">UNIDAD 1</a></li>
-						<li><a href="#">UNIDAD 2</a></li>
+						<li><a href="{{route('unidad2')}}">UNIDAD 2</a></li>
 						<li><a href="#">UNIDAD 3</a></li>
 					</ul>
 				</nav>
@@ -49,11 +49,9 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>SISTEMAS DE CONEXIÓN LIBRE Y A TRAVÉZ DE REDES.</h1>
-							<span class="image main"><img src="images/foto5.jpeg" alt="" /></span>
-							<p>En muchos de los casos el usuario obtiene la información que necesita de alguna computadora de servicio. Estas computadoras de escritorio se conectan a las computadoras de servicio empleando software que permite la emulación de algún tipo de terminal.</p>
-                            <h2>Cómputo a través de redes</h2>
-							<p>Esta es la era que esta basada en el concepto de redes de computadoras, en la que la información reside en una o varias computadoras, los usuarios de esta información hacen uso de computadoras para laborar y todas ellas se encuentran conectadas entre si. Esto brinda la posibilidad de que todos los usuarios puedan acceder a la información de todas las computadoras y a la vez que los diversos sistemas intercambien información.</p>
+							<h1>@yield('titulotema')</h1>
+							<span class="image main"><img src="@yield('temaimagen')" alt="" /></span>
+							<p>@yield('contenido')</p>
 							</div>
 					</div>
 

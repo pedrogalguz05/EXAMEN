@@ -36,22 +36,15 @@
 					</header>
 
 				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
+				<nav id="menu">
+					<h2>MENU</h2>
+					<ul>
 						<li><a href="{{route('inicio')}}">INICIO</a></li>
-						<li><a href="{{route('generic')}}">TEMA 1</a></li>
-						<li><a href="{{route('generic1')}}">TEMA 2</a></li>
-						<li><a href="{{route('generic2')}}">TEMA 3</a></li>
-						<li><a href="{{route('generic3')}}">TEMA 4</a></li>
-						<li><a href="{{route('generic4')}}">TEMA 5</a></li>
-						<li><a href="{{route('generic5')}}">TEMA 6</a></li>
-						<li><a href="{{route('generic6')}}">TEMA 7</a></li>
-						<li><a href="{{route('generic7')}}">TEMA 8</a></li>
-						<li><a href="{{route('generic8')}}">TEMA 9</a></li>
+						<li><a href="{{route('prueba')}}">UNIDAD 1</a></li>
+						<li><a href="#">UNIDAD 2</a></li>
+						<li><a href="#">UNIDAD 3</a></li>
 					</ul>
-					</nav>
-
+				</nav>
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
